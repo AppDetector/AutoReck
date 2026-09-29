@@ -1,0 +1,1 @@
+Place the pre-trained Sentence-BERT model "paraphrase-multilingual-MiniLM-L12-v2" in the current directory.

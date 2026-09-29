@@ -1,0 +1,4 @@
+1. ExploreRecks/utils.py/get_client(): Set your app ID, API Key and secret key (need to sign up for Baidu OCR).
+2. ExploreRecks/resources/aip-python-sdk-4.15.12.zip: Add baidu-aip-sdk to python environment.
+3. Download the pre-trained Sentence-BERT model "paraphrase-multilingual-MiniLM-L12-v2" to the "ExploreRecks/resources" directory.
+4. Download the pre-trained language model "Word2Vec/GoogleNews-vectors-negative300.bin", "FastText_model/wiki-news-300d-1M.vec" and "glove_model/glove.6B.300d.txt" to the "static_analysis/language_models" directory.

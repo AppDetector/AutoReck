@@ -1,0 +1,9 @@
+balance
+cash
+money
+gold
+coin
+bean
+ingot
+income
+red packet

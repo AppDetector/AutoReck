@@ -1,0 +1,261 @@
+Class Name:cn.fangchan.fanzan.entity.AliPayEntity
+Field Name:['amount']
+Similarity Scores:[0.8]
+Max Score:0.8
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.AppealEntity
+Field Name:['actually_money', 'return_money', 'total_money', 'true_money']
+Similarity Scores:[0.89, 0.73, 0.83, 0.84]
+Max Score:0.89
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.AppStarEntity
+Field Name:['amount']
+Similarity Scores:[0.8]
+Max Score:0.8
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.BankcardsEntity
+Field Name:['fund']
+Similarity Scores:[0.7]
+Max Score:0.7
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.CertificationsEntity
+Field Name:['alipay']
+Similarity Scores:[0.71]
+Max Score:0.71
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.ColletionEntity
+Field Name:['num', 'return_money', 'total_money', 'true_money']
+Similarity Scores:[0.7, 0.73, 0.83, 0.84]
+Max Score:0.84
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.CommentEntity
+Field Name:['return_money', 'total_money', 'true_money']
+Similarity Scores:[0.73, 0.83, 0.84]
+Max Score:0.84
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.CommissionIncomeEntity
+Field Name:['balance']
+Similarity Scores:[1.0]
+Max Score:1.0
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.CommunityEntity
+Field Name:['total_money', 'true_money', 'uid']
+Similarity Scores:[0.83, 0.84, 0.75]
+Max Score:0.84
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.CouponsEntity
+Field Name:['amount']
+Similarity Scores:[0.8]
+Max Score:0.8
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.FansEntity
+Field Name:['to_uid', 'uid']
+Similarity Scores:[0.71, 0.75]
+Max Score:0.75
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.FriendsDetailsEntity
+Field Name:['profit_money', 'to_uid']
+Similarity Scores:[0.76, 0.71]
+Max Score:0.76
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.FundIndexEntity
+Field Name:['balance']
+Similarity Scores:[1.0]
+Max Score:1.0
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.FundsBillsEntity
+Field Name:['amount', 'fund']
+Similarity Scores:[0.8, 0.7]
+Max Score:0.8
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.GoldCoinEntity
+Field Name:['num']
+Similarity Scores:[0.7]
+Max Score:0.7
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.GoldsCentersEntity
+Field Name:['gold_coin', 'reward_gold']
+Similarity Scores:[0.87, 0.85]
+Max Score:0.87
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.GoldsCoinTownEntity
+Field Name:['amount', 'desc']
+Similarity Scores:[0.8, 0.7]
+Max Score:0.8
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.GoldSinDailyEntity
+Field Name:['coins']
+Similarity Scores:[0.93]
+Max Score:0.93
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.GoldsIndexEntity
+Field Name:['gold_coin', 'is_coin_lottery']
+Similarity Scores:[0.87, 0.79]
+Max Score:0.87
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.GoodsDeatailsEntity
+Field Name:['gold_coins', 'num', 'return_money', 'reward_coins', 'total_money', 'true_money', 'unselected_coins']
+Similarity Scores:[0.84, 0.7, 0.73, 0.8, 0.83, 0.84, 0.77]
+Max Score:0.84
+Max Score Count:2
+=======================
+Class Name:cn.fangchan.fanzan.entity.GroupsDetailsEntity
+Field Name:['reward_gold', 'uid']
+Similarity Scores:[0.85, 0.75]
+Max Score:0.85
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.GrowthValueEntity
+Field Name:['num']
+Similarity Scores:[0.7]
+Max Score:0.7
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.HelpCateEntity
+Field Name:['task_gold']
+Similarity Scores:[0.7]
+Max Score:0.7
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.HomeFreeAreaEntity
+Field Name:['gold_task']
+Similarity Scores:[0.85]
+Max Score:0.85
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.IncomesSummariesEntity
+Field Name:['earnings', 'fund']
+Similarity Scores:[0.89, 0.7]
+Max Score:0.89
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.IntegralCenterEntity
+Field Name:['uid']
+Similarity Scores:[0.75]
+Max Score:0.75
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.InviteBusinessEntity
+Field Name:['num', 'to_uid']
+Similarity Scores:[0.7, 0.71]
+Max Score:0.71
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.InviteRollEntity
+Field Name:['end_money', 'num', 'profit_money', 'uid', 'valid_money']
+Similarity Scores:[0.72, 0.7, 0.76, 0.75, 0.77]
+Max Score:0.77
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.MoneyEntity
+Field Name:['earnings']
+Similarity Scores:[0.89]
+Max Score:0.89
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.NewProductsEntity
+Field Name:['img', 'num', 'return_money', 'reward_coins', 'total_money', 'true_money', 'unselected_coins']
+Similarity Scores:[0.8, 0.7, 0.73, 0.8, 0.83, 0.84, 0.77]
+Max Score:0.84
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.OrderEntity
+Field Name:['dotask', 'return_money', 'total_money', 'true_money']
+Similarity Scores:[0.7, 0.73, 0.83, 0.84]
+Max Score:0.84
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.OrderItemEntity
+Field Name:['money', 'num', 'return_money', 'total_money', 'true_money']
+Similarity Scores:[1.0, 0.7, 0.73, 0.83, 0.84]
+Max Score:1.0
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.OrderListEntity
+Field Name:['count_money']
+Similarity Scores:[0.74]
+Max Score:0.74
+Max Score Count:1
+innerClass Name:cn.fangchan.fanzan.entity.OrderListEntity$CountMoney
+innerField Name:['count_money', 'earnings']
+Similarity Scores:[0.74, 0.89]
+Max Score:0.89
+Max Score Count:1
+=======================
+innerClass Name:cn.fangchan.fanzan.entity.OrderLogEntity$Item
+innerField Name:['uid']
+Similarity Scores:[0.75]
+Max Score:0.75
+Max Score Count:1
+innerClass Name:cn.fangchan.fanzan.entity.OrderLogEntity$orderInfo
+innerField Name:['return_money', 'total_money', 'true_money']
+Similarity Scores:[0.73, 0.83, 0.84]
+Max Score:0.84
+Max Score Count:1
+innerClass Name:cn.fangchan.fanzan.entity.OrderLogEntity$taskInfo
+innerField Name:['return_money', 'total_money', 'true_money']
+Similarity Scores:[0.73, 0.83, 0.84]
+Max Score:0.84
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.PromoteOrdersEntity
+Field Name:['money', 'pay_money']
+Similarity Scores:[1.0, 0.76]
+Max Score:1.0
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.SpecialAreaEntity
+Field Name:['num', 'reward_coins', 'total_money', 'true_money', 'unselected_coins']
+Similarity Scores:[0.7, 0.8, 0.83, 0.84, 0.77]
+Max Score:0.84
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.SystemSettingEntity
+Field Name:['alipay']
+Similarity Scores:[0.71]
+Max Score:0.71
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.entity.SystemUpdateEntity
+Field Name:['num']
+Similarity Scores:[0.7]
+Max Score:0.7
+Max Score Count:1
+=======================
+Class Name:cn.fangchan.fanzan.vm.BindAccountRegisteredViewModel
+Field Name:['imei', 'img']
+Similarity Scores:[0.75, 0.8]
+Max Score:0.8
+Max Score Count:1
+=======================
+Class Name:com.wzq.mvvmsmart.http.UserEntity
+Field Name:['balance', 'fund', 'incomes', 'uid']
+Similarity Scores:[1.0, 0.7, 0.98, 0.75]
+Max Score:1.0
+Max Score Count:1
+=======================
+Class Name:com.mbridge.msdk.foundation.entity.RewardPlus
+Field Name:['amount', 'currencyId']
+Similarity Scores:[0.8, 0.7]
+Max Score:0.8
+Max Score Count:1
+=======================

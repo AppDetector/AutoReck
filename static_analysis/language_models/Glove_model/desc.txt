@@ -1,0 +1,1 @@
+Place the pre-trained language model "glove_model/glove.6B.300d.txt" in the current directory.

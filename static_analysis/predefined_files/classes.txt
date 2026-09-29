@@ -1,0 +1,8 @@
+user
+account
+wallet
+mine
+me
+person
+entity
+reward

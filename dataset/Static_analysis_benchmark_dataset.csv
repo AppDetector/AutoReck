@@ -1,0 +1,61 @@
+Package Name,App Name,Hardened,Tool,Market,Class,Fields,Class-Object,Method,Params,Return Value,Hooking Pattern
+cn.baohong.app,包红,0,,Tencent,app.model2.WalletDetail | UserProfile | app.util.m1,money/money_rice | balance/totalRevenueMoney | money/money_all,WalletDetail$CounterBean | MyWallet | UserProfile,getCounter | getMyWallet | k,,CounterBean (money/money_rice) | MyWallet (balance/totalRevenueMoney) | UserProfile (money/money_all),1
+cn.fangchan.fanzan,返赞,0,,Tencent,com.wzq.mvvmsmart.http.UserEntity | com.wzq.mvvmsmart.http.UserInfoUtil,gcoin/balance/incomes,UserEntity,getGcoin/getBalance/getIncomes | getLoginUser,,gcoin/balance/incomes | UserEntity (gcoin/balance/incomes),1
+cn.huiqing.walkday,走路赚点钱,0,,Tencent,cn.huiqing.walkday.bean.WalletBean,tgold/balance/cashBalance,WalletBean$DataBean,getData,,DataBean (tgold/balance/cashBalance),1
+cn.jxhb123.jxhb123,惊喜红包,0,,Tencent,cn.jxhb123.jxhb123.databinding.FragmentMineBinding,myMoney/myWaitMoney/myWithDrawMoney,FragmentMineBinding ,inflate | bind,"LayoutInflater, ViewGroup, boolean | View",FragmentMineBinding (myMoney/myWaitMoney/myWithDrawMoney),3
+cn.youth.news,中青看点,1,360 Jiagu,Tencent,cn.youth.news.MyApp,money_str/red_packet,UserInfo,getUser,,UserInfo (money_str/red_packet),1
+com.bx.hbll,红包来了,1,360 Jiagu,Tencent,com.bx.hbll.application.App$e,gold,User,c,,User (gold),1
+com.cashtoutiao,惠头条,1,ManXi,Tencent,com.cashtoutiao.account.bean.response.CreditSummaryResponse,todayIncome,UserCreditSummary,getUserCreditSummary,,UserCreditSummary (todayIncome),1
+com.cashwalk,惠运动,1,ManXi,Tencent,com.cashwalk.credit.bean.UserCreditSummary,todayIncome,UserCreditSummary,getTodayIncome,,todayIncome,1
+com.chenglie.qhbvideo,趣红包短视频版,0,,Tencent,com.chenglie.guaniu.module.main.ui.fragment.MineFragment,gold/money,User,a,com.chenglie.component.commonsdk.entity.User,User (gold/money),2
+com.chilliv.shortvideo,辣椒短视频,1,360 Jiagu,Tencent,com.chilliv.shortvideo.activity.WalletActivity,gold/todayGoldNum/totalGoldNum,WithdrawAmountEntity,Q0,com.chilliv.shortvideo.entity.WithdrawAmountEntity,WithdrawAmountEntity (gold/todayGoldNum/totalGoldNum),2
+com.cxkj_soft.jwjbq,全民走路计步,1,360 Jiagu,Tencent,com.cxkj_soft.jwjbq.common.bean.UsersBean$DataBean,total_coin/total_money,UsersBean$DataBean$UserBean,getUser,,UsersBean$DataBean$UserBean (total_coin/total_money),1
+com.ddyhq.youhuiquan,优惠券,1,360 Jiagu,Tencent,com.ddyhq.youhuiquan.model.entity.MyIndexEntity,taskAmount/incomingAmount/withdrawableAmount,MyIndexEntity$EntityBean,getEntity,,MyIndexEntity$EntityBean (taskAmount/incomingAmount/withdrawableAmount),1
+com.dragon.read,番茄免费小说,0,,Tencent,com.dragon.read.component.biz.impl.mine.d$a,coinBalance/totalCoin,WalletAccountInfo,apply,com.dragon.read.rpc.model.GetWalletAccountInfoResponse,WalletAccountInfo (coinBalance/totalCoin),2
+com.happycdz.zskj,充电开心赚,0,,Tencent,com.youju.frame.api.bean.UserBaseInfoRsp,balance/coin_balance,UserBaseInfoRsp$BusData,getBusData,,UserBaseInfoRsp$BusData (balance/coin_balance),1
+com.hk.reader,番薯免费小说,1,Tencent Legu,Tencent,com.hk.base.bean.UserEntity,gold,UserEntity,getGold,,gold,1
+com.htzq.bf,灰兔赚钱,0,,Tencent,com.youju.frame.api.bean.UserBaseInfoRsp,balance/coin_balance,UserBaseInfoRsp$BusData,getBusData,,UserBaseInfoRsp$BusData (balance/coin_balance),1
+com.kling.hbao,快领红包短视频,1,360 Jiagu,Tencent,com.kling.hbao.networds.responses.MineResponse | com.kling.hbao.fragment.MineFragment,ingot/ingotAmount/bean/balance | tvMineIngot/tvIngotMoney/tvMineBean/tvMineMoney,MineResponse$UserTotalDTO | MineFragment,getUserTotal | i,,MineResponse$UserTotalDTO (ingot/ingotAmount/bean/balance) | MineFragment (tvMineIngot/tvIngotMoney/tvMineBean/tvMineMoney),1/3'
+com.ldd.redenvelope,极速红包管家,1,360 Jiagu,Tencent,com.ldd.net.UserInfo | com.common.bean.AllRewardTask,cashIncome/goldCoin | totalCash/totalToken,UserInfo | AllRewardTask$BalanceBean,getCashIncome/getGoldCoin | getBalance,,cashIncome/goldCoin | AllRewardTask$BalanceBean (totalCash/totalToken),1
+com.profit.run.much,零点跑步,1,360 Jiagu,Tencent,com.profit.run.much.http.bean.UserInfo,gold,UserInfo,getGold,,gold,1
+com.quliang.video,乐趣喜刷,0,,Tencent,com.jingling.common.bean.userbean.UserInfo | com.jingling.common.bean.tx.UserWalletBean,gold/yuanbao | gold/money,UserInfo | UserWalletBean,getGold/getYuanbao | getGold/getMoney,,gold/yuanbao |  gold/money,1
+com.yaojiu.lajiao,辣椒极速版,1,360 Jiagu,Tencent,com.yaojiu.lajiao.activity.WalletActivity,gold/todayGoldNum/totalGoldNum,WithdrawAmountEntity,U0,com.yaojiu.lajiao.entity.WithdrawAmountEntity/int,WithdrawAmountEntity (gold/todayGoldNum/totalGoldNum),2
+com.zebra.assp.cn,爱尚视频,1,360 Jiagu,Tencent,com.zebra.code.http.api.RewardCash,cash_value,RewardCash,b,,cash_value,1
+bcmt.wurp.ibli,日日赚钱呗,1,Tencent Legu,Huawei,bcmt.wurp.ibli.info.me.AccountDetailInfo,balance,AccountDetailInfo,getBalance,,balance,1
+cn.jxhb123.jxsq123,惊喜红包,1,Bangcle,Huawei,cn.jxhb123.jxsq123.databinding.FragmentMineBinding,myMoney/myWaitMoney/myWithDrawMoney,FragmentMineBinding ,inflate | bind," LayoutInflater,ViewGroup,boolean | View",FragmentMineBinding (myMoney/myWaitMoney/myWithDrawMoney),3
+com.aaron.cgzq,猜歌赚钱,1,360 Jiagu,Huawei,com.aaron.bean.Person | com.aaron.activity.ProfileActivity,coinNum/amount,Person,getCoinNum/getAmount | refreshMyData,| com.aaron.bean.Person,coinNum/amount | Person (coinNum/amount),1/2'
+com.aaron.guess.dsj,猜题赚钱,1,360 Jiagu,Huawei,com.aaron.db.Person | com.aaron.activity.ProfileActivity,coinNum/amount,Person,getCoinNum/getAmount | refreshMyData,| com.aaron.db.Person,coinNum/amount | Person (coinNum/amount),1/2'
+com.cmoney.charg,每日充电赚钱,1,360 Jiagu,Huawei,com.parker.commonlibrary.data.model.RewardBeans,golds/money,RewardBeans,getGolds/getMoney,,golds/money,1
+com.hdx.dzzq,打字赚钱,1,360 Jiagu,Huawei,com.hdx.dzzq.model.User,balance,User,getBalance,,balance,1
+com.jifen.qukan,趣头条,0,,Huawei,com.jifen.qukan.lib.account.model.UserModel | com.jifen.qukan.lib.account.AccountModuleProxy/AccountModuleReal,balance/coin,UserModel,getBalance/getCoin | getUser,| Context,balance/coin | UserModel (balance/coin),1
+com.kmxs.reader,七猫免费小说,0,,Huawei,com.qimao.qmuser.model.entity.MineMapEntity/MineHeaderEntity,coin/coin_to_money/coin_today,MineHeaderEntity,getUserInfo | getCoin/getCoin_to_money/getCoin_today,,MineHeaderEntity (coin/coin_to_money/coin_today) | coin/coin_to_money/coin_today,1
+com.maihan.tredian,淘最热点,0,,Huawei,com.maihan.tredian.modle.UserData,today_point_income_display/point_and_balance_rmb,UserData,getToday_point_income_display/getPoint_and_balance_rmb,,today_point_income_display/point_and_balance_rmb,1
+com.smile.dayvideo,每日红包,0,,Huawei,com.smile.dayvideo.networds.responses.TaskAcountResponse,balance/ingot/bean,TaskAcountResponse,getBalance/getIngot/getBean,,balance/ingot/bean,1
+com.swjd.fastfunny,快趣赚钱,0,,Huawei,com.yuruisoft.apiclient.apis.adcamp.models.UserAccountInfoRsp,UserBalance/UserGoldCoinBalance,UserAccountInfoRsp,getUserBalance/getUserGoldCoinBalance,,UserBalance/UserGoldCoinBalance,1
+com.viewstap.zhuandian,赚点,1,360 Jiagu,Huawei,com.viewstap.zhuandian.model.bean.AccountBean,amount/balance,AccountBean,getAmount/getBalance,,amount/balance,1
+com.xy.intact,每日红包短视频,0,,Huawei,com.xy.intact.networds.responses.MineResponse,balance/ingot/bean,MineResponse$UserTotalDTO,getUserTotal,,MineResponse$UserTotalDTO (balance/ingot/bean),1
+com.yycl.tzvideo,红包视频,0,,Huawei,com.sanmiao.sound.bean.ShakeUserInfo,m_gold/m_balance,ShakeUserInfo$ResultBean,getResult,,ShakeUserInfo$ResultBean (m_gold/m_balance),1
+com.zoulu.diandian,点点走路赚钱,0,,Huawei,com.zoulu.diandian.bean.UserInfo,d,UserInfo,getCurrentGold/getCurrentMoney,,currentGold/currentMoney,1
+com.zyjh.dxjz,大象兼职,1,360 Jiagu,Huawei,com.zyjh.dxjz.bean.LotteryBean/LotteryDataBean,goldCount/money,LotteryBean/LotteryDataBean,getGoldCount/getMoney,,goldCount/money,1
+qxian.sguang.zhuan,闲时赚一点,1,Tencent Legu,Huawei,qxian.sguang.zhuan.info.me.AccountDetailInfo,balance,AccountDetailInfo,getBalance,,balance,1
+zhuanq.qian.jisub,赚钱了,1,Tencent Legu,Huawei,zhuanq.qian.jisub.info.me.AccountDetailInfo,balance,AccountDetailInfo,getBalance,,balance,1
+cn.uqu8.naojin,答题赚钱,1,360 Jiagu,Xiaomi,cn.uqu8.model.Person | cn.uqu8.activity.ProfileActivity,coinNum/amount,Person,getCoinNum/getAmount | refreshMyData,| cn.uqu8.model.Person,coinNum/amount | Person (coinNum/amount),1/2'
+com.aaron.guessmusic,猜歌赚钱,1,360 Jiagu,Xiaomi,com.aaron.bean.Person | com.aaron.activity.ProfileActivity,coinNum/amount,Person,getCoinNum/getAmount | refreshMyData,| com.aaron.bean.Person,coinNum/amount | Person (coinNum/amount),1/2'
+com.csxx.walker,人人走路赚钱,0,,Xiaomi,com.cssq.base.data.bean.UserBean,money,UserBean,getMoney,,money,1
+com.fread.interestingnovel,免费趣小说,0,,Xiaomi,com.fread.baselib.net.netprotocol.UserInfoBean,rmbBalanceYuan/balance,UserInfoBean,getRmbBalanceYuan/getBalance,,rmbBalanceYuan/balance,1
+com.ftl.rmlite,一米赚钱,1,360 Jiagu,Xiaomi,com.ftl.redmi.bean.UserInfoBean$DataBean,money,UserInfoBean$DataBean$UserBean,getUser,,UserInfoBean$DataBean$UserBean (money),1
+com.jd.app.reader,京东读书,0,,Xiaomi,com.jd.app.reader.pay.entity.PublishPayEntity,yueDouAmount,PublishPayEntity$DataBean,getData,,PublishPayEntity$DataBean (yueDouAmount),1
+com.jz.xydj,星芽免费短剧,0,,Xiaomi,com.lib.base_module.user.UserBean,cash_remain/species,UserBean,getCash_remain/getSpecies,,cash_remain/species,1
+com.lechuan.mdwz,米读极速版,0,,Xiaomi,com.lechuan.midunovel.welfare.api.beans.TopAccountInfo,cash/coin,TopAccountInfo,getCash/getCoin,,cash/coin,1
+com.moji.mjweather.light,墨迹天气极速版,0,,Xiaomi,com.moji.mjweather.gold.me.MeGoldCoinViewControl$a,sum_gold/today_gold,MeGoldExplainDataResp,meGoldTotal,com.moji.http.goldcoin.bean.MeGoldExplainDataResp,MeGoldExplainDataResp (sum_gold/today_gold),2
+com.mptqv.jrwk,走路赚钱宝,1,360 Jiagu,Xiaomi,com.towards.neyom.data.model.UserHomeInfo$StepStageInfo,golds,UserHomeInfo$StepStageInfo,getGolds,,golds,1
+com.nxeran.zlzql,走路赚钱来,1,dpt-shell,Xiaomi,com.sq.common_module.common.bean.GetRewardBean,userCoin/userAmount,GetRewardBean,getUserCoin/getUserAmount,,userAmount/userCoin,1
+com.qqx.kuai,打字赚钱快,0,,Xiaomi,com.qqx.kuai.bean.UserMineBean,goldNum,UserMineBean$DataBean,getData,,UserMineBean$DataBean (goldNum),1
+com.qsmy.walkmonkey,步多多,0,,Xiaomi,com.qsmy.busniess.community.bean.PersonInfoRatioBean,income,PersonInfoRatioBean,getIncome,,income,1
+com.sakura.mzlite,米多赚钱,1,360 Jiagu,Xiaomi,com.ftl.redmi.bean.UserInfoBean$DataBean | com.fttd.jianbao.bean.MyInfoBean$DataBean,money,UserInfoBean$DataBean$UserBean | MyInfoBean$UserBean,getUser,,UserInfoBean$DataBean$UserBean (money) | MyInfoBean$UserBean (money),1
+com.wifi.reader.free,连尚免费读书,0,,Xiaomi,com.wifi.reader.jinshu.lib_common.data.bean.mine.UserInfo,cash,UserInfo,getCash,,cash,1
+com.xs.fm.lite,番茄畅听音乐版,0,,Xiaomi,com.xs.fm.luckycat.model.UserIncome,cashBalance/scoreBalance,UserIncome,getCashBalance/getScoreBalance,,cashBalance/scoreBalance,1
+com.zebra.jdsp.cn,极豆视频,1,360 Jiagu,Xiaomi,com.zebra.code.http.api.RewardCash,cash_value,RewardCash,b,,cash_value,1
+com.happy.happywalk,Make Money,0,,Google,com.funwalk.app.bean.WalletBean,balanceCoin,WalletBean,getBalanceCoin,,balanceCoin,1
+com.suiyuexiaoshuo,随阅小说大全,0,,Google,com.suiyuexiaoshuo.app.MasterApplication,egold/money,UserInfoEntity,i,Context,UserInfoEntity (egold/money),1
+com.zhangyue.read,iReader,0,,Google,com.zhangyue.read.kt.model.UserInfo,coin_amount/coupon_total,UserInfo,getCoin_amount/getCoupon_total,,coin_amount/coupon_total,1

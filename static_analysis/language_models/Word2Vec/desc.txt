@@ -1,0 +1,1 @@
+Place the pre-trained language model "Word2Vec/GoogleNews-vectors-negative300.bin" in the current directory.

@@ -1,0 +1,1 @@
+Place the pre-trained language model "FastText_model/wiki-news-300d-1M.vec" in the current directory.
